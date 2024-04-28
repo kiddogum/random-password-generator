@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body class="bg-light-subtle">
+    <div class="container w-50 my-5 p-5 border border-dark rounded-5">
+      <h1 class="text-center">Random Password Generator</h1>
+      <div class="input-group my-3">
+        <input type="text" class="form-control" placeholder="Random Password" id="random-password" disabled/>
+        <button class="input-group-text" id="copy"><i class="bi bi-copy"></i></span>
+      </div>
+      <p class="text-success text-end d-none" id="copied">Copied <i class="bi bi-check"></i></p>
+      <button class="btn btn-dark text-center mx-auto" id="generate">Generate</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
